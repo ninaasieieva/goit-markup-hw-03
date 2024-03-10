@@ -130,17 +130,28 @@ border-bottom: 1px solid #E7E9FC;}
        padding-top: 188px; padding-left: 472px; padding-right: 472px;  padding-bottom: 292px;
 }
 .hero-title {
-    font-family: Roboto,sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 max-width: 496px;
 margin: 0 auto 48px;
     }
-   
+
+   /* .sec-hero{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    gap: 48px;
+} */
+/* .button{
+    margin-top: 48px;
+    text-align: center;
+    
+} */
+
 .hero-order-btn { background-color: #4D5AE5;
     cursor: pointer;
     font-weight: 500;
@@ -291,6 +302,7 @@ margin-bottom: 8px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color:#434455; 
+    margin-bottom: 8px
 }
 
 
