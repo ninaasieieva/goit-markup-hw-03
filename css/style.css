@@ -1,4 +1,7 @@
-
+img {display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 body { font-family: Roboto, 
     sans-serif;
@@ -48,13 +51,10 @@ button {cursor: pointer;}
         padding-right: 15px;
         margin: 0 auto;
     }
-    img {display: block;
-        max-width: 100%;
-        height: auto;
-    }
+    
 .header  {padding-top: 24px;
 padding-bottom: 24px;
-border-bottom: 1px solid #e7e9fc;}
+border-bottom: 1px solid #E7E9FC;}
 
 .header-container { display: flex; }
 
@@ -92,15 +92,14 @@ border-bottom: 1px solid #e7e9fc;}
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     
  }
 
  .menu-nav-link:hover,
  .menu-nav-link:focus { color:#404BBF;
  }
- .address { display: flex;  
+ .address { display: flex; margin-left: auto;  
     
 }
 .address-list { display: flex; 
@@ -138,25 +137,23 @@ border-bottom: 1px solid #e7e9fc;}
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    max-width: 496px;
-    margin-bottom: 48px;
+max-width: 496px;
+margin: 0 auto 48px;
     }
    
 .hero-order-btn { background-color: #4D5AE5;
-    font-family: Roboto,sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff; 
+    color: #FFFFFF;
     display: block;
-    min-width: 169px; 
+    margin: 0 auto;
+    min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer; 
-    }
+    border-radius: 4px;}
 
 
 
@@ -258,13 +255,22 @@ margin-bottom: 8px;}
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:  #2E2F42;
+margin-bottom: 72px;
     }
-        .portfolio-list { display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px;  }
+
+    .portfolio-list {  font-style: normal;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;  }
+
         .portfolio-icon {    }
 
         .portfolio-item { background-color: #F4F4FD; width: calc(( 100% - 48px) / 3);
         }
-.bank-app { padding: 32px 16px; border: 1px solid #e7e9fc;  border-top: none;}
+.bank-app { padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;}
 
 .portportfolio-subtitle {
 font-family: Roboto, sans-serif;
@@ -285,7 +291,7 @@ margin-bottom: 8px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color:#434455; 
-margin-top: 8px;}
+}
 
 
 .footer { background-color: #2E2F42;
@@ -293,7 +299,8 @@ padding: 100px 0;}
 
 
 
-.footer-link { font-family: Raleway, sans-serif;
+.footer-link { display: inline-block;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -301,7 +308,7 @@ padding: 100px 0;}
     text-transform: uppercase;
     color: #4d5ae5; 
     margin-bottom: 16px;
-    display: inline-block;
+    
     
 
 }
