@@ -52,15 +52,14 @@ button {cursor: pointer;}
         margin: 0 auto;
     }
     
-.header  {padding-top: 24px;
-padding-bottom: 24px;
+.header  {
+
 border-bottom: 1px solid #E7E9FC;}
 
 .header-container { display: flex; }
 
 .header-navigation {  display: flex;
     align-items: center;
-    flex-grow: 1;
     justify-content: space-between;
 
 }
@@ -74,7 +73,6 @@ border-bottom: 1px solid #E7E9FC;}
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    margin-left: 156px;
     padding-top: 24px;
     padding-bottom: 24px;
     text-decoration: none;
@@ -83,13 +81,14 @@ border-bottom: 1px solid #E7E9FC;}
     color: #2E2F42;}
 
 
-.menu-nav-list {display: flex;  gap: 40px; flex-grow: 1; 
+.menu-nav-list {display: flex;  gap: 40px; 
 }
 .menu-nav-link {  
     font-family: Roboto, sans-serif ;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50;
+    display: block;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
@@ -121,7 +120,6 @@ border-bottom: 1px solid #E7E9FC;}
 
 .hero { box-sizing: content-box;
     background: #2E2F42;
-    height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -181,14 +179,14 @@ margin: 0 auto 48px;
     
 
 .advantage-subtitle {     
-font-family: Roboto, sans-serif;
+
 font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
 color:  #2E2F42;
 margin-bottom: 8px;
-width: calc((100% - 72px) / 4); }
+ }
 
 
 .advantage-text {
@@ -277,11 +275,12 @@ margin-bottom: 72px;
 
         .portfolio-icon {    }
 
-        .portfolio-item { background-color: #F4F4FD; width: calc(( 100% - 48px) / 3);
+        .portfolio-item {  width: calc(( 100% - 48px) / 3);
         }
 .bank-app { padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none; }
+    border-top: none;
+background-color: ; }
 
 .portfolio-subtitle {
 font-family: Roboto, sans-serif;
